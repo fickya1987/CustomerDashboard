@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
  
-filtered_customer = pd.read_csv("C:/Users/chint/Documents/GitHub/CustomerDashboard/e-commerce-analysis/dataset/filtered_customer.csv")
-merge_customer = pd.read_csv("C:/Users/chint/Documents/GitHub/CustomerDashboard/e-commerce-analysis/dataset/merge_customer.csv")
-rfm_data = pd.read_csv("C:/Users/chint/Documents/GitHub/CustomerDashboard/e-commerce-analysis/dataset/rfm_data.csv")
+filtered_customer = pd.read_csv("e-commerce-analysis/dataset/filtered_customer.csv")
+merge_customer = pd.read_csv("e-commerce-analysis/dataset/merge_customer.csv")
+rfm_data = pd.read_csv("e-commerce-analysis/dataset/rfm_data.csv")
 
 top_5_city_key = filtered_customer["customer_city"].value_counts().nlargest(5).index.tolist()
 top_5_city_value = filtered_customer["customer_city"].value_counts().nlargest(5).tolist()
