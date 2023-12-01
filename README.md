@@ -15,5 +15,5 @@ streamlit run dashboard.py
 
 ## Streamlit Cloud Link
 ```
-https://moonlightcustomerdashboard.streamlit.app/
+https://submission-customer-dashboard.streamlit.app/
 ```
