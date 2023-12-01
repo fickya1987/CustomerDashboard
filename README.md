@@ -1,15 +1,16 @@
 # Customer Dashboard
 Dashboard that was made with E-Commerce data analysis inside. Deployed with streamlit.
 
-# Setup environment
+# Setup Environment
 ```
-conda create --name main-ds python=3.9
-conda activate main-ds
+pip install pipenv
+pipenv install
+pipenv shell
 pip install streamlit pandas matplotlib seaborn scipy
 ```
 ## Run Streamlit
-Make sure you already on the dashboard folder, if not run this first on cmd / powershell (cd dashboard)
 ```
+cd dashboard
 streamlit run dashboard.py
 ```
 
